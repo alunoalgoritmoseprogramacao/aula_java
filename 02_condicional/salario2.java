@@ -17,4 +17,5 @@ double salario = Double.parseDouble(IO.readln("Informe o seu salário: "));
             salario = salario * 1.15;
     
     System.out.printf("O novo salário é %.2f \n", salario);
+    IO.println("O novo salário é R$ " + salario);
 }
