@@ -7,9 +7,10 @@ void main(){
     int contador=1, resultado=1;
     int base = Integer.parseInt(IO.readln("Informe a base: "));
     int expoente = Integer.parseInt(IO.readln("Informe o expoente: "));
-    while (contador<=expoente){
-        resultado = resultado * base;
-        contador++;
-    }
+    if (expoente>0)
+        do{
+            resultado = resultado * base;
+            contador++;
+        }while (contador<=expoente);
     IO.println(base + "^" + expoente + " = " + resultado);
 }

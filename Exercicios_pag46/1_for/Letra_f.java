@@ -4,19 +4,10 @@
     portuguol (^). */
 
 void main(){
-
     int resposta = 1;
-
     int base = Integer.parseInt(IO.readln("Informe a base: "));
     int expoente = Integer.parseInt(IO.readln("Informe o expoente: "));
-
-    for (int contador=1; contador<=expoente; contador++) {
+    for (int contador=1; contador<=expoente; contador++) 
         resposta = resposta * base;
-        //IO.println(base + " elevado a " + contador + " é igual a " + resposta);
-    }        
-        
-
     IO.println(base + " elevado a " + expoente + " é igual a " + resposta);
-    
-       
 }     
