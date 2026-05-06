@@ -4,7 +4,7 @@ void main(){
     
     for (int lin=0;lin<3;lin++)
         for (int col=0;col<3;col++)
-            a[lin][col] = Integer.parseInt(IO.readln("Digite A[" + (lin+1) + "][" + (col+1) + "]: "));
+            a[lin][col] = Integer.parseInt(IO.readln("Digite A[" + (lin) + "][" + (col) + "]: "));
 
     for (int lin=0;lin<3;lin++){
         for (int col=0;col<3;col++) 
